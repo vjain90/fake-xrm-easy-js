@@ -1,0 +1,29 @@
+{
+  "name": "test-npm",
+  "version": "0.0.0",
+  "description": "TestNpm",
+  "main": "./test/app.js",
+  "author": {
+    "name": "Jordi",
+    "email": ""
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "edge-js": "^10.3.1",
+    "fakexrmeasy.2016": "0.0.4",
+    "mocha": "^2.5.3",
+    "nyc": "^12.0.2",
+    "odata-v4-parser": "^0.1.29",
+    "xmlhttprequest": "^1.8.0"
+  },
+"nyc": 
+{ "all": false, 
+  "check-coverage": true,
+  "cwd" : "../SolutionFiles/Unmanaged/CustomerDueDiligence/WebResources/",
+  "lines" : 0
+},
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=50000",
+	"coverage:teamcity": "nyc --all --report-dir=\"../../../../UnitTests_Scripts/coverage/\" --reporter=html  ./node_modules/mocha/bin/mocha --timeout=50000"
+  }
+}
