@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FakeXrmEasy.Js.2016", "FakeXrmEasy.Js.2016\FakeXrmEasy.Js.2016\FakeXrmEasy.Js.2016.njsproj", "{DE96AB1D-01E4-47D5-8A92-F091B9130C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebResources", "WebResources\WebResources.csproj", "{68670149-40FE-4EA9-A624-572B2C595F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F94EA5E-7F26-4776-BCD9-311C79281756}"
+	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
+		FakeXrmEasy.EdgeProxy.365.nuspec = FakeXrmEasy.EdgeProxy.365.nuspec
+		FakeXrmEasy.EdgeProxy.9.nuspec = FakeXrmEasy.EdgeProxy.9.nuspec
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TestNpm", "TestNpm\TestNpm.njsproj", "{15BAA3DF-064F-42DF-A190-99E8204080E7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FakeXrmEasy.EdgeProxy.Shared", "FakeXrmEasy.EdgeProxy.Shared\FakeXrmEasy.EdgeProxy.Shared.shproj", "{09282DB6-5B2E-4E03-B36D-2BE96A2A2FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeXrmEasy.EdgeProxy.v9", "FakeXrmEasy.EdgeProxy.v9\FakeXrmEasy.EdgeProxy.v9.csproj", "{89B0B9E8-9A4C-4450-A23C-D5F91C8D0E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeXrmEasy.EdgeProxy.v365", "FakeXrmEasy.EdgeProxy.v365\FakeXrmEasy.EdgeProxy.v365.csproj", "{1502BDDF-0D91-41E6-80E0-8E96FA7F391E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FakeXrmEasy.EdgeProxy.Shared.Tests", "FakeXrmEasy.EdgeProxy.Shared.Tests\FakeXrmEasy.EdgeProxy.Shared.Tests.shproj", "{311DDB82-3ED4-4287-BC86-760D4E7DB7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeXrmEasy.EdgeProxy.v9.Tests", "FakeXrmEasy.EdgeProxy.v9.Tests\FakeXrmEasy.EdgeProxy.v9.Tests.csproj", "{2E2C1D47-9BFE-4EB4-82FA-BD2CFA03D26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeXrmEasy.EdgeProxy.v365.Tests", "FakeXrmEasy.EdgeProxy.v365.Tests\FakeXrmEasy.EdgeProxy.v365.Tests.csproj", "{B0EDAF9A-3525-4EDE-8D0F-9622C3BEB686}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FakeXrmEasy.EdgeProxy.Shared\FakeXrmEasy.EdgeProxy.Shared.projitems*{09282db6-5b2e-4e03-b36d-2be96a2a2fc2}*SharedItemsImports = 13
+		FakeXrmEasy.EdgeProxy.Shared\FakeXrmEasy.EdgeProxy.Shared.projitems*{1502bddf-0d91-41e6-80e0-8e96fa7f391e}*SharedItemsImports = 4
+		FakeXrmEasy.EdgeProxy.Shared.Tests\FakeXrmEasy.EdgeProxy.Shared.Tests.projitems*{2e2c1d47-9bfe-4eb4-82fa-bd2cfa03d26f}*SharedItemsImports = 4
+		FakeXrmEasy.EdgeProxy.Shared.Tests\FakeXrmEasy.EdgeProxy.Shared.Tests.projitems*{311ddb82-3ed4-4287-bc86-760d4e7db7c3}*SharedItemsImports = 13
+		FakeXrmEasy.EdgeProxy.Shared\FakeXrmEasy.EdgeProxy.Shared.projitems*{89b0b9e8-9a4c-4450-a23c-d5f91c8d0e07}*SharedItemsImports = 4
+		FakeXrmEasy.EdgeProxy.Shared.Tests\FakeXrmEasy.EdgeProxy.Shared.Tests.projitems*{b0edaf9a-3525-4ede-8d0f-9622c3beb686}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE96AB1D-01E4-47D5-8A92-F091B9130C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE96AB1D-01E4-47D5-8A92-F091B9130C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE96AB1D-01E4-47D5-8A92-F091B9130C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE96AB1D-01E4-47D5-8A92-F091B9130C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68670149-40FE-4EA9-A624-572B2C595F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68670149-40FE-4EA9-A624-572B2C595F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68670149-40FE-4EA9-A624-572B2C595F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68670149-40FE-4EA9-A624-572B2C595F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BAA3DF-064F-42DF-A190-99E8204080E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BAA3DF-064F-42DF-A190-99E8204080E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BAA3DF-064F-42DF-A190-99E8204080E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BAA3DF-064F-42DF-A190-99E8204080E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B0B9E8-9A4C-4450-A23C-D5F91C8D0E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B0B9E8-9A4C-4450-A23C-D5F91C8D0E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B0B9E8-9A4C-4450-A23C-D5F91C8D0E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B0B9E8-9A4C-4450-A23C-D5F91C8D0E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1502BDDF-0D91-41E6-80E0-8E96FA7F391E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1502BDDF-0D91-41E6-80E0-8E96FA7F391E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1502BDDF-0D91-41E6-80E0-8E96FA7F391E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1502BDDF-0D91-41E6-80E0-8E96FA7F391E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2C1D47-9BFE-4EB4-82FA-BD2CFA03D26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2C1D47-9BFE-4EB4-82FA-BD2CFA03D26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2C1D47-9BFE-4EB4-82FA-BD2CFA03D26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2C1D47-9BFE-4EB4-82FA-BD2CFA03D26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EDAF9A-3525-4EDE-8D0F-9622C3BEB686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EDAF9A-3525-4EDE-8D0F-9622C3BEB686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EDAF9A-3525-4EDE-8D0F-9622C3BEB686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EDAF9A-3525-4EDE-8D0F-9622C3BEB686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
